@@ -10,6 +10,6 @@ def using_uniq(array)
   array.uniq
 end
 
-def using_flatten(array)
+def using_flatten(flat_array)
   new_array_of_strings = "#{array.flatten}"
 end
