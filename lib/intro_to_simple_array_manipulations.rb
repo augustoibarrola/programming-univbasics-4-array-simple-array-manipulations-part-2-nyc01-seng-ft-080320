@@ -13,3 +13,7 @@ end
 def using_flatten(array)
    flat_array = array.flatten
 end
+
+def using_delete(array, string)
+  new_array = array.delete(string)
+end
