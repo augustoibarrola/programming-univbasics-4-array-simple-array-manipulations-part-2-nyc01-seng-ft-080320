@@ -11,6 +11,6 @@ def using_uniq(array)
 end
 
 def using_flatten(flat_array)
-   new_array_of_strings = flat_array.flatten
-   puts "#{new_array_of_strings}"
+   new_array_of_strings = "#{flat_array.flatten}"
+   puts new_array_of_strings
 end
